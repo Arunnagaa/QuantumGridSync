@@ -351,9 +351,9 @@ ol {
 }
 
 .nav-container {
-  max-width: 1280px;
+  width: 100%;
   margin: 0 auto;
-  padding: 0 40px;
+  padding: 0 60px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -569,9 +569,9 @@ ol {
 .hero-content {
   position: relative;
   z-index: 3;
-  max-width: 1280px;
+  width: 100%;
   margin: 0 auto;
-  padding: 0 40px;
+  padding: 0 60px;
   padding-top: 100px;
 }
 
@@ -738,9 +738,9 @@ ol {
 }
 
 .container {
-  max-width: 1280px;
+  width: 100%;
   margin: 0 auto;
-  padding: 0 40px;
+  padding: 0 60px;
 }
 
 .section-header {
@@ -1255,9 +1255,9 @@ ol {
 .page-hero-content {
   position: relative;
   z-index: 2;
-  max-width: 1280px;
+  width: 100%;
   margin: 0 auto;
-  padding: 140px 40px 80px;
+  padding: 140px 60px 80px;
 }
 
 .page-hero-breadcrumb {
@@ -1670,6 +1670,18 @@ ol {
 
   .process-step::after {
     display: none;
+  }
+
+  .container,
+  .nav-container,
+  .hero-content {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .page-hero-content {
+    padding-left: 40px;
+    padding-right: 40px;
   }
 }
 
