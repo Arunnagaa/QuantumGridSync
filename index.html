@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QuantumGridSync — Integrated. Intelligent. Innovative.</title>
+  <meta name="description"
+    content="QuantumGridSync empowers your business with next-gen IT infrastructure and digital solutions. Managed IT, Cloud, Cyber Security, Software Development & more.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23000'/%3E%3Cpath d='M65 28c-4-4-10-6-16-6-14 0-24 10-24 22 0 8 4 14 12 18l16 8c4 2 6 6 6 10 0 6-5 10-12 10-6 0-11-3-14-8' stroke='%23fff' stroke-width='6' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+</head>
+
+<body>
+
+  <!-- ========== SPLASH SCREEN ========== -->
+  <div id="splash-screen">
+    <div class="splash-logo-container">
+      <div class="splash-logo">
+        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+          <!-- Fingerprint-style S logo — concentric arcs forming an S shape -->
+          <!-- Outer faint rings -->
+          <circle class="fp-ring fp-ring-1" cx="100" cy="100" r="94" />
+          <circle class="fp-ring fp-ring-2" cx="100" cy="100" r="88" />
+
+          <!-- Top half arcs (curving right) — upper S curve -->
+          <path class="fp-arc fp-arc-1" d="M56 95 A44 44 0 0 1 144 95" />
+          <path class="fp-arc fp-arc-2" d="M62 90 A38 38 0 0 1 138 90" />
+          <path class="fp-arc fp-arc-3" d="M68 86 A32 32 0 0 1 132 86" />
+          <path class="fp-arc fp-arc-4" d="M74 82 A26 26 0 0 1 126 82" />
+          <path class="fp-arc fp-arc-5" d="M80 78 A20 20 0 0 1 120 78" />
+          <path class="fp-arc fp-arc-6" d="M86 75 A14 14 0 0 1 114 75" />
+
+          <!-- Bottom half arcs (curving left) — lower S curve -->
+          <path class="fp-arc fp-arc-7" d="M144 105 A44 44 0 0 1 56 105" />
+          <path class="fp-arc fp-arc-8" d="M138 110 A38 38 0 0 1 62 110" />
+          <path class="fp-arc fp-arc-9" d="M132 114 A32 32 0 0 1 68 114" />
+          <path class="fp-arc fp-arc-10" d="M126 118 A26 26 0 0 1 74 118" />
+          <path class="fp-arc fp-arc-11" d="M120 122 A20 20 0 0 1 80 122" />
+          <path class="fp-arc fp-arc-12" d="M114 125 A14 14 0 0 1 86 125" />
+
+          <!-- Central spine line of the S -->
+          <line class="fp-spine" x1="100" y1="52" x2="100" y2="148" />
+
+          <!-- Scan line effect -->
+          <line class="fp-scan" x1="40" y1="100" x2="160" y2="100" />
+        </svg>
+      </div>
+      <div class="splash-company-name">QuantumGridSync</div>
+      <div class="splash-tagline">Integrated · Intelligent · Innovative</div>
+      <div class="splash-loader-bar"></div>
+    </div>
+  </div>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+          <rect width="40" height="40" rx="10" fill="white" />
+          <path
+            d="M25 11c-1.5-1.8-4-3-6.5-3-5 0-8.5 3.8-8.5 8.5 0 3 1.8 5.5 5.5 7l5 2.5c2.2 1 3.5 2.8 3.5 5 0 3.5-2.8 5.8-6.5 5.8-3.2 0-5.8-1.8-7.2-4.5"
+            stroke="black" stroke-width="2.5" fill="none" stroke-linecap="round" />
+        </svg>
+        <div class="nav-logo-text">Quantum<span>GridSync</span></div>
+      </a>
+
+      <div class="nav-links" id="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <div class="nav-dropdown">
+          <a class="nav-dropdown-trigger" href="#">
+            Services
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </a>
+          <div class="nav-dropdown-menu">
+            <a href="pages/managed-it.html">Managed IT Services</a>
+            <a href="pages/maintenance.html">Maintenance Contracts</a>
+            <a href="pages/it-support.html">IT Support & Infrastructure</a>
+            <a href="pages/computer-amc.html">Computer AMC</a>
+            <a href="pages/web-design.html">Web Design & Development</a>
+            <a href="pages/custom-software.html">Custom Software</a>
+            <a href="pages/cloud-network.html">Cloud & Network</a>
+            <a href="pages/cyber-security.html">Cyber Security</a>
+          </div>
+        </div>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="nav-cta">Get in Touch</a>
+      </div>
+
+      <div class="nav-hamburger" id="nav-hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1920&q=80"
+        alt="IT Infrastructure Server Room" loading="eager">
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-grid-pattern"></div>
+    <div class="hero-content">
+      <div class="hero-badge reveal">
+        <span class="dot"></span>
+        Next-Gen IT Solutions
+      </div>
+      <h1 class="reveal reveal-delay-1">
+        <span class="gradient-text">Integrated.</span><br>
+        Intelligent.<br>
+        Innovative.
+      </h1>
+      <p class="reveal reveal-delay-2">
+        Empowering your business with next-gen IT infrastructure and digital solutions. From managed services to cyber
+        security — we've got you covered.
+      </p>
+      <div class="hero-buttons reveal reveal-delay-3">
+        <a href="contact.html" class="btn btn-primary">
+          Start Your Project
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+        <a href="#services" class="btn btn-outline">
+          Explore Services
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="12" y1="5" x2="12" y2="19"></line>
+            <polyline points="19 12 12 19 5 12"></polyline>
+          </svg>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== SERVICES SECTION ========== -->
+  <section class="section section-dark" id="services">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="3" y="3" width="7" height="7"></rect>
+            <rect x="14" y="3" width="7" height="7"></rect>
+            <rect x="3" y="14" width="7" height="7"></rect>
+            <rect x="14" y="14" width="7" height="7"></rect>
+          </svg>
+          Our Services
+        </div>
+        <h2>Comprehensive IT Solutions</h2>
+        <p>End-to-end technology services designed to accelerate your business growth and digital transformation.</p>
+      </div>
+      <div class="services-grid">
+
+        <!-- 1. Managed IT Services -->
+        <a href="pages/managed-it.html" class="service-card reveal">
+          <div class="service-card-icon">
+            <svg viewBox="0 0 24 24">
+              <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+              <line x1="8" y1="21" x2="16" y2="21"></line>
+              <line x1="12" y1="17" x2="12" y2="21"></line>
+            </svg>
+          </div>
+          <h3>Managed IT Services</h3>
+          <p>Proactive monitoring, management, and optimization of your entire IT ecosystem.</p>
+          <div class="service-card-arrow">
+            Learn More
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </div>
+        </a>
+
+        <!-- 2. Maintenance Contract -->
+        <a href="pages/maintenance.html" class="service-card reveal reveal-delay-1">
+          <div class="service-card-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+              <line x1="16" y1="13" x2="8" y2="13"></line>
+              <line x1="16" y1="17" x2="8" y2="17"></line>
+            </svg>
+          </div>
+          <h3>Maintenance Contracts</h3>
+          <p>Structured maintenance agreements ensuring peak performance and minimal downtime.</p>
+          <div class="service-card-arrow">
+            Learn More
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </div>
+        </a>
+
+        <!-- 3. IT Support & Infrastructure -->
+        <a href="pages/it-support.html" class="service-card reveal reveal-delay-2">
+          <div class="service-card-icon">
+            <svg viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="3"></circle>
+              <path
+                d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z">
+              </path>
+            </svg>
+          </div>
+          <h3>IT Support & Infrastructure</h3>
+          <p>Reliable technical support and robust infrastructure management for seamless operations.</p>
+          <div class="service-card-arrow">
+            Learn More
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </div>
+        </a>
+
+        <!-- 4. Computer AMC -->
+        <a href="pages/computer-amc.html" class="service-card reveal reveal-delay-3">
+          <div class="service-card-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+              <path d="M2 17l10 5 10-5"></path>
+              <path d="M2 12l10 5 10-5"></path>
+            </svg>
+          </div>
+          <h3>Computer AMC</h3>
+          <p>Annual Maintenance Contracts providing comprehensive hardware & software care.</p>
+          <div class="service-card-arrow">
+            Learn More
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </div>
+        </a>
+
+        <!-- 5. Web Design -->
+        <a href="pages/web-design.html" class="service-card reveal">
+          <div class="service-card-icon">
+            <svg viewBox="0 0 24 24">
+              <polyline points="16 18 22 12 16 6"></polyline>
+              <polyline points="8 6 2 12 8 18"></polyline>
+            </svg>
+          </div>
+          <h3>Web Design & Development</h3>
+          <p>Stunning, responsive websites built with cutting-edge technologies and modern design.</p>
+          <div class="service-card-arrow">
+            Learn More
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </div>
+        </a>
+
+        <!-- 6. Custom Software -->
+        <a href="pages/custom-software.html" class="service-card reveal reveal-delay-1">
+          <div class="service-card-icon">
+            <svg viewBox="0 0 24 24">
+              <rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect>
+              <rect x="9" y="9" width="6" height="6"></rect>
+              <line x1="9" y1="1" x2="9" y2="4"></line>
+              <line x1="15" y1="1" x2="15" y2="4"></line>
+              <line x1="9" y1="20" x2="9" y2="23"></line>
+              <line x1="15" y1="20" x2="15" y2="23"></line>
+              <line x1="20" y1="9" x2="23" y2="9"></line>
+              <line x1="20" y1="14" x2="23" y2="14"></line>
+              <line x1="1" y1="9" x2="4" y2="9"></line>
+              <line x1="1" y1="14" x2="4" y2="14"></line>
+            </svg>
+          </div>
+          <h3>Custom Software</h3>
+          <p>Tailored software solutions engineered to solve your unique business challenges.</p>
+          <div class="service-card-arrow">
+            Learn More
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </div>
+        </a>
+
+        <!-- 7. Cloud & Network -->
+        <a href="pages/cloud-network.html" class="service-card reveal reveal-delay-2">
+          <div class="service-card-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
+            </svg>
+          </div>
+          <h3>Cloud & Network</h3>
+          <p>Scalable cloud infrastructure and enterprise-grade networking solutions.</p>
+          <div class="service-card-arrow">
+            Learn More
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </div>
+        </a>
+
+        <!-- 8. Cyber Security -->
+        <a href="pages/cyber-security.html" class="service-card reveal reveal-delay-3">
+          <div class="service-card-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+          </div>
+          <h3>Cyber Security</h3>
+          <p>Advanced threat protection and security frameworks to safeguard your digital assets.</p>
+          <div class="service-card-arrow">
+            Learn More
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========== ABOUT SECTION ========== -->
+  <section class="section section-light" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-content reveal">
+          <div class="section-label">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="12" y1="16" x2="12" y2="12"></line>
+              <line x1="12" y1="8" x2="12.01" y2="8"></line>
+            </svg>
+            About Us
+          </div>
+          <h3>Why Choose QuantumGridSync?</h3>
+          <p>We're not just another IT company. We are your strategic technology partner committed to delivering
+            solutions that drive growth, efficiency, and innovation for your business.</p>
+          <div class="about-features">
+            <div class="about-feature">
+              <div class="about-feature-icon">
+                <svg viewBox="0 0 24 24">
+                  <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                </svg>
+              </div>
+              <div>
+                <h4>24/7 Monitoring</h4>
+                <p>Round-the-clock system surveillance</p>
+              </div>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon">
+                <svg viewBox="0 0 24 24">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+              </div>
+              <div>
+                <h4>Expert Team</h4>
+                <p>Certified IT professionals</p>
+              </div>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon">
+                <svg viewBox="0 0 24 24">
+                  <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path>
+                </svg>
+              </div>
+              <div>
+                <h4>Fast Response</h4>
+                <p>Under 30-minute SLA</p>
+              </div>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon">
+                <svg viewBox="0 0 24 24">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                </svg>
+              </div>
+              <div>
+                <h4>Secure & Reliable</h4>
+                <p>Enterprise-grade security</p>
+              </div>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                  </path>
+                </svg>
+              </div>
+              <div>
+                <h4>Reputable</h4>
+                <p>Long-term client trust</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-visual reveal reveal-delay-2">
+          <div class="about-visual-card">
+            <div class="stats-grid">
+              <div class="stat-item">
+                <h3 data-counter="1" data-suffix="">0</h3>
+                <p>Projects Completed</p>
+              </div>
+              <div class="stat-item">
+                <h3 data-counter="1" data-suffix="">0</h3>
+                <p>Client</p>
+              </div>
+
+              <div class="stat-item">
+                <h3>30 Min</h3>
+                <p>Response Time</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA SECTION ========== -->
+  <section class="cta-section section-dark">
+    <div class="container">
+      <div class="cta-card reveal">
+        <h2>Ready to Transform Your IT?</h2>
+        <p>Let's discuss how QuantumGridSync can elevate your technology infrastructure and drive your business forward.
+        </p>
+        <div class="cta-buttons">
+          <a href="contact.html" class="btn btn-primary">
+            Schedule a Consultation
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+          <a href="about.html" class="btn btn-outline">
+            Learn About Us
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">
+            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+              <rect width="40" height="40" rx="10" fill="white" />
+              <path
+                d="M25 11c-1.5-1.8-4-3-6.5-3-5 0-8.5 3.8-8.5 8.5 0 3 1.8 5.5 5.5 7l5 2.5c2.2 1 3.5 2.8 3.5 5 0 3.5-2.8 5.8-6.5 5.8-3.2 0-5.8-1.8-7.2-4.5"
+                stroke="black" stroke-width="2.5" fill="none" stroke-linecap="round" />
+            </svg>
+            <div class="nav-logo-text">Quantum<span>GridSync</span></div>
+          </a>
+          <p>Empowering businesses with next-gen IT infrastructure and innovative digital solutions since 2026.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+            </a>
+
+            <a href="#" aria-label="Facebook">
+              <svg viewBox="0 0 24 24">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+              </svg>
+            </a>
+            <a href="#" aria-label="Instagram">
+              <svg viewBox="0 0 24 24">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <a href="pages/managed-it.html">Managed IT</a>
+          <a href="pages/maintenance.html">Maintenance</a>
+          <a href="pages/it-support.html">IT Support</a>
+          <a href="pages/computer-amc.html">Computer AMC</a>
+        </div>
+        <div class="footer-col">
+          <h4>Solutions</h4>
+          <a href="pages/web-design.html">Web Design</a>
+          <a href="pages/custom-software.html">Custom Software</a>
+          <a href="pages/cloud-network.html">Cloud & Network</a>
+          <a href="pages/cyber-security.html">Cyber Security</a>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <a href="about.html">About Us</a>
+          <a href="contact.html">Contact</a>
+          <a href="#">Careers</a>
+          <a href="#">Blog</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 QuantumGridSync. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
